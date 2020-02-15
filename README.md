@@ -4,6 +4,8 @@ A program that prints a receipt for a shopping cart.
 ## Build and Run
 A runnable jar of this project can be built using Gradle. An alternative is to run the main class **ShoppingReceiptHelper** under  `src/main/java ` in a Java IDE (e.g. IntelliJ) .
 
+*Java 1.8.0_241 or above is required.
+
 ## Input
 The program accepts the file path of a JSON file which contains purchase details as input. The JSON should contain the location of purchase and an array of purchase items.  The table below list out the valid locations:
 
